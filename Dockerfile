@@ -2,11 +2,9 @@ FROM amazonlinux
 
 MAINTAINER Chris Yawman <chris.yawman@team.neustar>
 
-<<<<<<< HEAD
 RUN yum install -y epel-release git wget patch
-=======
+
 RUN yum -y install epel-release git wget
->>>>>>> 237f3f3accedef5899f3d9264a73014c164f1878
 
 RUN yum -y install php70-cli php70-common php70-json php70-gd php70-intl php70-mbstring php70-mcrypt php70-mysqlnd php70-ldap php70-pdo php70-pear php70-pgsql php70-process php70-soap php70-pecl-xdebug php70-xml php70-xsl php70-pecl-zip php70-opcache
 
