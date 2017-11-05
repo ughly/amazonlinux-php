@@ -4,7 +4,7 @@ MAINTAINER Chris Yawman <chris.yawman@team.neustar>
 
 RUN yum install -y epel-release git wget patch
 
-RUN yum -y install php70-cli php70-common php70-json php70-gd php70-intl php70-mbstring php70-mcrypt php70-mysqlnd php70-ldap php70-pdo php70-pear php70-pgsql php70-process php70-soap php70-pecl-xdebug php70-xml php70-xsl php70-pecl-zip php70-opcache
+RUN yum -y install php71-cli php71-common php71-json php71-gd php71-intl php71-mbstring php71-mcrypt php71-mysqlnd php71-ldap php71-pdo php71-pear php71-pgsql php71-process php71-soap php71-pecl-xdebug php71-xml php71-xsl php71-pecl-zip php71-opcache
 
 RUN yum -y install python-pip
 RUN python-pip install awscli
